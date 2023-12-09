@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:p="http://maven.apache.org/POM/4.0.0"
+           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <p:modelVersion>4.0.0</p:modelVersion>
+
+    <p:groupId>org.example</p:groupId>
+    <p:artifactId>ass10</p:artifactId>
+    <p:version>1.0-SNAPSHOT</p:version>
+
+    <p:properties>
+        <p:maven.compiler.source>21</p:maven.compiler.source>
+        <p:maven.compiler.target>21</p:maven.compiler.target>
+        <p:project.build.sourceEncoding>UTF-8</p:project.build.sourceEncoding>
+        <p:dependency>
+            <p:groupId>junit</p:groupId>
+            <p:artifactId>junit</p:artifactId>
+            <p:version>4.12</p:version>
+            <p:scope>test</p:scope>
+        </p:dependency>
+    </p:properties>
+
+
+</p:project>
